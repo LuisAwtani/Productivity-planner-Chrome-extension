@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="background.css">
+        <link rel="stylesheet" href="button.css">
+        <link rel="stylesheet" href="input.css">
+    </head>
+    <body>
+        <div class="containerr">
+            <div>
+                <blockquote id="motiquote" class="otro-blockquote"></blockquote>
+                <div>
+                    <div>
+                        <!--Put priority Here-->
+                        <p id="priority" style="display:inline"><input style="padding-left: 10px;" type="checkbox"></p>
+                        <input type="checkbox" id="priobox" class="checky">
+
+                    </div>
+                    <div class="topp">
+                        <p id="success_priority"><!--success message here--></p>
+                    </div>
+                </div>
+            </div>
+                <div>
+                <!--Loop over each appointment and insert time and name and checkbox--> 
+                <div id="appointments">
+                    <input type="checkbox" class="checky">
+                </div> 
+                <div id="resset">
+                    <br>
+                    <button type="submit" id="prepared" class="addappointment">Reset</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="popup.js"></script>
+        <script src="sw.js"></script>
+    </body>
+</html>

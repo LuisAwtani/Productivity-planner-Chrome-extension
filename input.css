@@ -1,0 +1,13 @@
+
+.appointment, .addappointment, input[type="time"], .MeLlamo {
+    border: 1px solid #646262;
+    border-radius: 7px;
+    background-color: rgb(204, 223, 248);
+    padding-bottom: 3px;
+}
+
+.appointment:focus, .addappointment:focus, input[type="time"]:focus { 
+    outline: none;
+    border-color: #759ded;
+    box-shadow: 0 0 20px #609cf1;
+}

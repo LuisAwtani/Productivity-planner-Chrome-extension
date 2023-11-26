@@ -1,0 +1,60 @@
+body {
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+    background-color: mediumspringgreen;
+    background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+    background-repeat: repeat;
+  }
+
+
+/*blockquote p::before {
+    content: "\f095"; 
+    font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 6px;
+   vertical-align: middle;
+  font-size: 180px;
+ }*/
+
+ @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+ .otro-blockquote{
+   font-size: 13px;
+   width: 250px;
+   margin:10px auto;
+   font-family:Open Sans;
+   font-style:italic;
+   color: #555555;
+   padding:1.2em 20px 1.2em 35px;
+   border-left:8px solid #78C0A8 ;
+   line-height:1.6;
+   position: relative;
+   background:#EDEDED;
+ }
+ 
+ .otro-blockquote::before{
+   font-family:Arial;
+   content: "\201C";
+   color:#78C0A8;
+   font-size:4em;
+   position: absolute;
+   left: 10px;
+   top:-10px;
+ }
+ 
+ .otro-blockquote::after{
+   content: '';
+ }
+ 
+ .otro-blockquote span{
+   display:block;
+   color:#333333;
+   font-style: normal;
+   font-weight: bold;
+   margin-top:1em;
+ }
+
+
+/* Checkboxes */
+input[type="checkbox"] {
+  position:relative;
+  top: 2px;
+}

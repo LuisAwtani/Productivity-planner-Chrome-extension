@@ -1,0 +1,65 @@
+.container {
+    width: 330px;
+    height: 360px;
+    text-align:center;
+}
+
+.containerr {
+    width: 330px;
+    height: 220px;
+    text-align:center;
+}
+
+
+
+
+.timePrompt {
+    padding-left: 10px;
+    padding-bottom: 3px;
+    text-align: right;
+}
+
+#hello_world {
+    font-family: Corbel;
+    font-size: 21px;
+    color: gray;
+    font-weight:450;
+}
+
+#hello_priority, #hello_appointments {
+    font-family: Corbel;
+    font-size: 16px;
+    color: gray;
+    font-weight: 420;
+}
+
+#box {
+    border: 2px solid #aadeff;
+    border-radius: 9px;
+    width: 200px;
+}
+
+.taskPrompt {
+    width: 85px;
+}
+
+#priority {
+    font-family: Corbel;
+    font-size: 23px;
+    color: rgb(53, 52, 52);
+    font-weight: 520;
+}
+
+#appointments {
+    font-family: Corbel;
+    font-size: 16px;
+    color: rgb(69, 69, 69);
+    font-weight: 380;
+}
+
+#errormessage {
+    font-family: Corbel;
+    font-size: 13px;
+    color: rgb(225, 46, 46);
+    font-weight:450;
+}
